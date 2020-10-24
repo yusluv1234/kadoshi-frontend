@@ -1,0 +1,33 @@
+.btn__big {
+    width: 200px;
+    border: none;
+    background-color: #a13a1b;
+    padding: 15px 0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+._bigplain {
+    background: transparent;
+    border: 3px solid #a13a1b;
+    color:#a13a1b;
+}
+
+._plainBig {
+    width: 300px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .btn__big {
+        width: 170px;
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    ._plainBig {
+        width: 200px;
+    }
+}
