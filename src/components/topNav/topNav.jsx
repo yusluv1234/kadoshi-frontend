@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
+import { Avatar, Stack} from "@chakra-ui/core";
 
 import './topNav.scss';
 
@@ -13,7 +14,10 @@ const TopNav = () => {
                 <NavLink exact to='/services' activeClassName=''> SERVICES </NavLink>
                 <NavLink exact to='/about' activeClassName=''> ABOUT </NavLink>
                 <NavLink exact to='/contact' activeClassName=''> CONTACT </NavLink>
-                <NavLink exact to='/' activeClassName=''> Link </NavLink>
+                <NavLink exact to='/' activeClassName=''> 
+                    {/* <Avatar size='2xs' name='John Doe' src='' /> */}
+                    link
+                </NavLink>
             </div>
         </div>
     )
