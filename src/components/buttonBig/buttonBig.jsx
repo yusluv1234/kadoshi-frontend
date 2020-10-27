@@ -4,9 +4,9 @@ import './buttonBig.scss';
 export const ButtonBig = ({ clicked, caption, plain, plainBig }) => {
 	return (
 		<button
-			className={`btn__big ${plain && '_bigplain'} ${plainBig && '_plainBig'}`}
+			className={`btn__big ${plain && "_bigplain"} ${plainBig && "_plainBig"}`}
 		>
-			Join
+			{caption}
 		</button>
 	);
 };
