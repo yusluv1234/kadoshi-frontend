@@ -8,7 +8,7 @@ export const ButtonSmall = ({ clicked, caption, roundEdge, light, plain }) => {
 				plain && '_smallplain'
 			}`}
 		>
-			Hire Now
+			{caption}
 		</button>
 	);
 };
