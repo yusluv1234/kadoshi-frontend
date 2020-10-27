@@ -14,9 +14,9 @@ const TopNav = () => {
                 <NavLink exact to='/services' activeClassName=''> SERVICES </NavLink>
                 <NavLink exact to='/about' activeClassName=''> ABOUT </NavLink>
                 <NavLink exact to='/contact' activeClassName=''> CONTACT </NavLink>
-                <NavLink exact to='/' activeClassName=''> 
+                <NavLink exact to='/signIn' activeClassName=''> 
                     {/* <Avatar size='2xs' name='John Doe' src='' /> */}
-                    link
+                    User
                 </NavLink>
             </div>
         </div>
