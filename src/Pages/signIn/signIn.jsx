@@ -10,7 +10,7 @@ import ButtonSmall from '../../components/buttonSmall/buttonSmall';
 
 const SignIn = () => {
     return (
-        <div>
+        <div style={{height: '100vh'}}>
             <div className='signIn__main'>
                 <TopNav />
                 <div className='signIn__main_body'>

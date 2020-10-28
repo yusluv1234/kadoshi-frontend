@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
-import { Avatar, Stack} from "@chakra-ui/core";
 
 import './topNav.scss';
 
