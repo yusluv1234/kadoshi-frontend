@@ -1,11 +1,11 @@
 import React from 'react'
-import TopNav from '../components/topNav/topNav'
-import HomeCaption from '../components/homeCaption/homeCaption'
-import HomeBody from '../components/homeBody/homeBody'
+import TopNav from '../../components/topNav/topNav'
+import HomeCaption from '../../components/homeCaption/homeCaption'
+import HomeBody from '../../components/homeBody/homeBody'
 
-import ButtonBig from '../components/buttonBig/buttonBig'
+import ButtonBig from '../../components/buttonBig/buttonBig'
 
-import { FooterThin, FooterWide } from '../components/footer/footer'
+import { FooterThin, FooterWide } from '../../components/footer/footer'
 
 import './homePage.scss';
 
