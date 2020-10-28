@@ -1,9 +1,9 @@
 import React from "react";
-import TopNav from "../components/topNav/topNav";
-import AboutBody from "../components/aboutBody/aboutBody";
-import AboutCaption from "../components/aboutCaption/aboutCaption";
+import TopNav from "../../components/topNav/topNav";
+import AboutBody from "../../components/aboutBody/aboutBody";
+import AboutCaption from "../../components/aboutCaption/aboutCaption";
 
-import { FooterThin, FooterWide } from "../components/footer/footer";
+import { FooterThin, FooterWide } from "../../components/footer/footer";
 
 import "./aboutPage.scss";
 
