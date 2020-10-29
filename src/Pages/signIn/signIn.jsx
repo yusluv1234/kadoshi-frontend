@@ -25,7 +25,7 @@ const SignIn = () => {
                                 <InputGroup>
                                     <Input 
                                         type='text' 
-                                        placeholder='Username'
+                                        placeholder='Email Address'
                                         />
                                     <InputRightElement children={<Avatar size='2xs' />} />
                                 </InputGroup>
